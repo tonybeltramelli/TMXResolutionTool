@@ -2,7 +2,7 @@
 ======================
 
 TMX Resolution Tool is a command line tool to let game developers quickly convert their .tmx tile map files and their images into different resolutions.
-Usefull for iOS developers and the Apple Retina screen specifications, the script support the Retina resolution notation.
+Usefull for iOS developers and the Apple Retina screen specifications, the script supports the Retina resolution notation.
 
 ##Requirements
 
