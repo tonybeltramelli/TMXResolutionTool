@@ -24,7 +24,7 @@ Image type supported :
 Resolution 1x to 2x
 
 ```bash
-	bin/TMXResolutionTool sample/tile_map.tmx 2
+	> bin/TMXResolutionTool sample/tile_map.tmx 2
 	
 	Success: new image at sample/sprite_sheet@2x.png
 	Success: new image at sample/special@2x.png
@@ -34,7 +34,7 @@ Resolution 1x to 2x
 Resolution 2x to 1x
 
 ```bash
-	bin/TMXResolutionTool sample/tile_map@2x.tmx 0.5
+	> bin/TMXResolutionTool sample/tile_map@2x.tmx 0.5
 	
 	Success: new image at sample/sprite_sheet.png
 	Success: new image at sample/special.png
@@ -44,7 +44,7 @@ Resolution 2x to 1x
 Simple image resize with ratio
 
 ```bash
-	bin/TMXResolutionTool sample/sprite_sheet.png 4
+	> bin/TMXResolutionTool sample/sprite_sheet.png 4
 	
 	Success: new image at sample/sprite_sheet@4x.png
 ```
@@ -52,7 +52,7 @@ Simple image resize with ratio
 Simple image resize with specific width and height
 
 ```bash
-	bin/TMXResolutionTool sample/sprite_sheet.png 1024 2048
+	> bin/TMXResolutionTool sample/sprite_sheet.png 1024 2048
 	
 	Success: new image at sample/sprite_sheet_1024_2048.png
 ```
